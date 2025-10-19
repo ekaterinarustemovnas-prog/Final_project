@@ -1,6 +1,6 @@
-def hello_world():
-    return "Hello World!"
+def hello_world(name):
+    return f"Hello World, {name}!"
 
 
 if __name__ == "__main__":
-    print(hello_world())
+    print(hello_world('Kate'))
